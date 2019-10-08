@@ -46,3 +46,4 @@ For fine-tunning, use your model with --model option.
 ## A word on GPU and CPU
 
 I opted to set the Darknet makefile to use CPU as default instead of GPU to favor an easy execution for most people instead of a fast performance. Therefore, the vehicle detection and OCR will be pretty slow. If you want to accelerate them, please edit the Darknet makefile variables to use GPU.
+Also I don't have a GPU 😐😑
